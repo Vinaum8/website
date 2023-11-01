@@ -1,6 +1,8 @@
-bases:
+resources:
   - ../base
 
+namespace: test
+
 patches:
-  - podinfo.yml
-  - frontend.yml
+- path: podinfo.yml
+- path: frontend.yml
